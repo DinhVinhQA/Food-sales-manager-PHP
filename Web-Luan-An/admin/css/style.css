@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	background-color: #fff;
+	color: #333;
+	font-size: 16px;
+}
+a,a:hover {
+	color: #000;
+	text-decoration: none;
+}
+.th {
+	text-transform: capitalize;
+}
+.img {
+	width: 100%;
+}
+.box-content {
+	padding: 0 5%;
+}
+.menu-top {
+	background-color: #333 !important;
+	font-size: 12px;
+}
+.menu li {
+	display: inline-block;
+	padding:10px 12px;
+	text-transform: uppercase;
+}
+.menu li:hover,.menu li.active {
+	background-color: #fff;
+}
+.menu li:hover a,.menu li.active a {
+	color: #409E73;
+}
+.menu {
+	background-color: #7fb401 !important;
+}
+.menu li a {
+	color: #fff;
+}
+.home-product table tbody tr:hover {
+	background-color: #f1f1f1;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+.home-product input {
+	margin-bottom: 20px;
+}
+.come-back {
+	padding: 9px;
+	background-color: #ccc;
+	border-radius: 5px;
+	color: #fff;
+}
+.login form {
+	max-width: 300px;
+	background-color: #E0D0F5;
+	padding: 20px;
+	border-radius: 10px;
+}
+.login form .sub {
+	background-color: #2E6DA4;
+	border: 1px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 5px 20px;
+}
+.login form .res {
+	background-color: #808080;
+	border: 1px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 5px 20px;
+	float: right;
+}
